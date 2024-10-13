@@ -1,0 +1,54 @@
+.tax-calculator-form {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.tax-calculator-form__label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #333;
+}
+
+.tax-calculator-form__input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+.tax-calculator-form__input--text,
+.tax-calculator-form__input--number {
+	height: 35px;
+}
+
+.tax-calculator-form__input--select {
+	height: 35px;
+	background-color: #fff;
+}
+
+.tax-calculator-form__submit {
+	width: 100%;
+	padding: 10px;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.tax-calculator-form__submit:hover {
+	background-color: #45a049;
+}
+
+.tax-calculator-form__result {
+	margin-top: 16px;
+	text-align: center;
+}
